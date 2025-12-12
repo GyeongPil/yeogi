@@ -148,4 +148,131 @@ section input:hover{
     color: white;
     font-weight: bold;
     font-size: 15px;
+    margin-left: 15px;
+}
+
+.event_plus{
+    width: 60%;
+    height: 20%;
+    margin-left: 17%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+.event{
+    font-weight: bold;
+}
+
+.plus{
+    text-decoration: none;
+    color: blue;
+}
+
+.plus:hover{
+    text-decoration: underline;
+}
+
+.event_img{
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ev_img{
+    width: 350px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.travel_dest{
+    position: absolute;
+    margin-left: 17%;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.tvd_img{
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 19%;
+    display: flex;
+    gap: 40px;
+}
+
+.td_img{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.td_img:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+.tvd_text{
+    margin-left: 20%;
+    display: flex;
+    gap: 160px;
+}
+
+.td_text{
+    list-style: none;
+    font-size: 13px;
+}
+
+.benefit{
+    margin-top: 2%;
+    width: 59%;
+    height: 150px;
+    margin-left: 18%;
+    background-color: rgb(220, 206, 255);
+    border-radius: 15px;
+}
+
+.membership{
+    font-size: 23px;
+    padding-top: 2%;
+    margin-left: 3%;
+}
+
+.benefit_nav{
+    margin-top: 1%;
+    margin-left: 2.5%;
+}
+
+.bf_login{
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(69, 128, 255);
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.bf_look{
+    font-size: 13px;
+    text-decoration: none;
+    color: blue;
+}
+
+.bf_look:hover{
+    text-decoration: underline;
+}
+
+.benefit_img{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin-left: 80%;
+    margin-top: -12%;
 }
